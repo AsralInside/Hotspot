@@ -1,75 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>John and Jane's Wedding</title>
-    <link rel="stylesheet" type="text/css" href="theme.css"> 
-    <link rel="stylesheet" type="text/css" href="./icons/css/all.min.css"> 
-    <link href="https://fonts.googleapis.com/css?family=Caveat|Quicksand&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  </head>
-  <body>
-    <header class="header">
-      <h1 class="heading">
-        John & Jane
-        <span class="heading-subtext"> are getting married!</span>
-      </h1>
-    </header>
-    <a data-scroll class="fixed-button" href="#rsvp" id="rsvpButton">RSVP</a> 
-    <section class="section">
-      <h2 class="sub-heading">Overview</h2>
-      <p>Church wedding debt celebrate macarena embarrassing glitter  Will. Forever happy salad  cheers photobooth photographer limousine photobooth photographer limousine prime rib, guitar acoustic bass photobooth photographer limousine sparkles beautiful sparkles guitar acoustic bass beautiful. Cake dessert mother guitar acoustic bass cheers, uncle joe seat covers guitar acoustic bass macarena seat covers cake dessert embarrassing.
-      </p>
-    </section>
-    <section class="section">
-      <h2 class="sub-heading">The Details</h2>
-      <div class="details">
-        <i class="fas fa-calendar-check"></i>
-        <h3 class="details-heading">When</h3>
-        <p>January 1, 2020</p>
-        <a title="Add to Calendar" rel="noopener" href="#" target="_blank" rel="nofollow">Add to Calendar</a>
-      </div>
-      <div class="details">
-        <i class="fas fa-map-marked-alt"></i>
-        <h3 class="details-heading">Location</h3>
-        <p><a rel="noopener" href="#">Grand Venue Place</a>, City, State</p>
-        <img class="resort-image" src="./img/resort.jpeg" alt="Resort" />
-      </div>
-      <div class="details">
-        <i class="fas fa-suitcase"></i>
-        <h3 class="details-heading">Lodging</h3>
-        <p>DJ Jazzy Nupitals guitar acoustic bass embarrassing first aisle guitar acoustic bass cheers glitter . Macarena fish aisle aisle wedding, forever happy salad  drunk groomsman overpriced florist embarrassing coworkers tuxedo aisle guitar acoustic bass champagne bouquet. Ring wedding beautiful tuxedo fish toast, veil Bryna aisle centerpieces. Cheers embarrassing bouquet bouquet Bryna overpriced florist DJ Jazzy Nupitals Bryna macarena. DJ Jazzy Nupitals prime rib centerpieces centerpieces cake dessert, cake dessert tuxedo aisle seat covers aisle.</p>
-        <p>Church Will chicken unity sparkles Bryna cake dessert, centerpieces aisle Will debt guitar acoustic bass glitter . Magic sparkles father bridesmaid  champagne bouquet wedding mother. Magic first dancing fish chicken champagne debt mother guitar acoustic bass.</p>
-      </div>
-      <div class="details">
-        <i class="fas fa-plane-departure"></i>
-        <h3 class="details-heading">Flights</h3>
-        <p>Ring wedding beautiful tuxedo fish toast, veil Bryna aisle centerpieces. Cheers embarrassing bouquet bouquet Bryna overpriced florist DJ Jazzy Nupitals Bryna macarena.</p>
-        <p>Magic sparkles father bridesmaid  champagne bouquet wedding mother. Magic first dancing fish chicken champagne debt mother guitar acoustic bass.</p>
-      </div>
-      <div class="details">
-        <i class="fas fa-asterisk"></i>
-        <h3 class="details-heading">Other Notes</h3>
-        <p>Cake dessert mother guitar acoustic bass cheers, uncle joe seat covers guitar acoustic bass macarena seat covers cake dessert embarrassing.</p>
-        <p>Also, your presence is the only present we desire. No gift required.</p>
-      </div>
-      <div class="details">
-        <i class="fas fa-reply"></i>
-        <h3 class="details-heading" id="rsvp">RSVP</h3>
-        <p>[Embed your RSVP form here]</p>
-        <!-- Include Embedded link of Google Form here in place of # -->
-        <!-- <iframe title="RSVP" src="" style="width:100%;" height="960" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
-      </div>
-    </section>
-    <script src="./js/smooth-scroll.polyfills.min.js"></script>
-    <script defer>
-      var scroll = new SmoothScroll('a[href*="#"]');
-      var rsvpButton = document.getElementById('rsvpButton')
-      rsvpButton.addEventListener('click',hideButton,false);
+<html>
+<meta charset='UTF-8'/><meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/><meta content='IE=edge' http-equiv='X-UA-Compatible'/>
+  
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+  <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
+  <link href="https://feeldreams.github.io/haibuatkamu/style.css" rel="stylesheet" type="text/css" />
+  <script src="https://kit.fontawesome.com/4f3ce16e3e.js" crossorigin="anonymous"></script>
+  
+<head>
+<title>Script HTML buat Kamu</title>
+<meta name="description" content="HTML Feeldream Repl Co">
+<!-- 
+  Made with love by Rayys!
+     Blog: feeldream.id
+     Instagram: @rayyarrr
+     TikTok: @feelthisray
+     Email: rayyarr73@gmail.com
+  Thanks to all <3
+-->
+</head>
+<body>
+	
+   <!-- Ganti Audio di sini -->
+   <audio src="https://feeldreams.github.io/audio/thousand.mp3" id="linkmp3" class="sembunyi"></audio>
+   
+   <div id="bodyblur">
+     <!-- Wallpaper / Background --><img src="https://feeldreams.github.io/pics/nightcar.jpg" id="wallpaper"/>
+   </div>
+   
+   <div class="overlay">
+     <div class="loading-message">Harap tunggu...</div>
+   </div>
+   
+   <div id='Content'>
 
-      function hideButton() {
-        rsvpButton.style.display = 'none';
-      }   
-    </script>
-  </body>
+     <div class="kumpulanstiker">
+         <!-- Stiker untuk Konten -->
+         <img src="https://feeldreams.github.io/pusn.gif" id="fotostiker"/>
+         <img src="https://feeldreams.github.io/bunga.gif" id="fotostiker1"/>
+         <img src="https://feeldreams.github.io/ngumpet.gif" id="fotostiker2"/>
+         <img src="https://feeldreams.github.io/gumush.gif" id="fotostiker3"/>
+         <img src="https://feeldreams.github.io/pusn.gif" id="fotostiker4"/>
+         <img src="https://feeldreams.github.io/mmua.gif" id="fotostiker5"/>
+     </div>
+     
+     <div><div id='pergeseran'>
+     	
+<!-- Pesan 1 -->
+<p><b>
+	<span>hiii kamuuu 😍<br>aku cuma mau bilang<br>makasih yaa.. 🫠</span>
+</b></p>
+
+<!-- Pesan 2 -->
+<p><b>
+	<span>makasii udah sayang<br>sama akuu 🫶</span>
+</b></p>
+
+<!-- Pesan 3 -->
+<p><b>
+	<span>makasih juga udah hadir<br>dalam hidup akuu 💗</span>
+</b></p>
+
+<!-- Pesan 4 -->
+<p><b>
+	<span>maaf kalo aku sering<br>bikin kamu kesel :(</span>
+</b></p>
+
+<!-- Pesan 5 -->
+<p><b>
+	<span>tapi jujur, aku tulus banget<br>kok sama kamu, hehe 😍</span>
+</b></p>
+
+<!-- Pesan 6 -->
+<p><b>
+	<span id="ngetik">tetaplah menjadi semangatku,<br>jangan menjauh, jangan pergi, dan<br>jangan berpindah ke lain hati ya 😍<br><br>aku sayang kamuu,<br><i>i love u more 💗</i></span>
+</b></p>
+
+     </div></div>
+
+     <div id="Tombol">
+       <a onClick="multifungsi()">
+         <b id="tmbl">Geser &#128073;</b>
+       </a>
+     </div>
+     
+     <div id="ftAwal">
+       <!-- Stiker Pembuka -->
+       <img src="" id="ftoAwal" style="opacity:0"/>
+     </div>
+
+     <div id="loveIn">
+       <!-- Tombol LOVE -->
+       <label class='lovein'><svg class='line' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><g transform='translate(2.550170, 3.550158)'><path d='M0.371729633,8.89614246 C-0.701270367,5.54614246 0.553729633,1.38114246 4.07072963,0.249142462 C5.92072963,-0.347857538 8.20372963,0.150142462 9.50072963,1.93914246 C10.7237296,0.0841424625 13.0727296,-0.343857538 14.9207296,0.249142462 C18.4367296,1.38114246 19.6987296,5.54614246 18.6267296,8.89614246 C16.9567296,14.2061425 11.1297296,16.9721425 9.50072963,16.9721425 C7.87272963,16.9721425 2.09772963,14.2681425 0.371729633,8.89614246 Z'></path><path d='M13.23843,4.013842 C14.44543,4.137842 15.20043,5.094842 15.15543,6.435842'></path></g></svg></label>
+     </div>
+     <p id="ket">Sentuh LOVEnya!</p>
+     <p id="kot"><a href="" target="_blank">Lihat Script Lainnya</a></p>
+     
+   </div>
+
+<script>const body = document.querySelector("body"); const iniwp = [];iden = 1; const swalst = Swal.mixin({timer: 2500, allowOutsideClick: false, showConfirmButton: false, timerProgressBar: true, imageHeight: 90,}); audio = new Audio('' + linkmp3.src); ftganti=0;fungsi=0;fungsiAwal=0;deffotostiker=fotostiker.src;function berjatuhan() {const heart = document.createElement("div"); heart.className = "fas fa-heart"; heart.style.left = (Math.random() * 90)+"vw"; heart.style.animationDuration = (Math.random()*3)+2+"s"; body.appendChild(heart);} setInterval(function name(params) {var heartArr = document.querySelectorAll(".fa-heart"); if (heartArr.length > 100) {heartArr[0].remove()}},100); const swals = Swal.mixin({allowOutsideClick: false, cancelButtonColor: '#FF0040', imageHeight: 80,}); 
+
+nomorhp = "";
+pesanwhatsapp = "maaciii<3 iloveuu too 💗💗💗";
+</script>
+<script src="https://feeldreams.github.io/haibuatkamu/script.js"></script>
+</body>
 </html>
